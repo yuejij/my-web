@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui, sans-serif;
+  background: #000000;
+  color: #111;
+}
+
+h1 {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 3rem;
+  color: #ffdd00;
+}
+
+h2 {
+  text-align:center;
+  padding: 2rem 2rem;
+  font-size: 1.5rem;
+  color: #ffdd00;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem 3rem;
+}
+
+img {
+  display: block;
+  max-width: 60vw;
+  max-height: 40vh;
+  object-fit: contain;
+}
